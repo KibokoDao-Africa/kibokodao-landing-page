@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 		siteName: "kiboko.dao",
 		images: [
 			{
-				url: "https://chronark.com/og.png",
+				 url: "https://chronark.com/og.png",
 				width: 1920,
 				height: 1080,
 			},
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: "Chronark",
+		title: "agevimaster",
 		card: "summary_large_image",
 	},
 	icons: {
