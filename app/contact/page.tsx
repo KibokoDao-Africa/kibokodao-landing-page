@@ -1,5 +1,8 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Github, Mail, Twitter, Facebook,  Youtube } from "lucide-react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
+
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
@@ -9,7 +12,7 @@ const socials = [
 		icon: <Twitter size={20} />,
 		href: "https://twitter.com/KibokoDAOAfrica",
 		label: "Twitter",
-		handle: "@KibokoDAOAfria",
+		handle: "@KibokoDAOAfrica",
 	},
 	{
 		icon: <Mail size={20} />,
@@ -23,6 +26,19 @@ const socials = [
 		label: "Github",
 		handle: "KibokoDao-Africa",
 	},
+	{
+		icon: <Facebook size={20} />,
+		href: "https://web.facebook.com/profile.php?id=100093844284426&_rdc=1&_rdr",
+		label: "Facebook",
+		handle: "Kiboko Dao",		
+	}, 
+	{
+		icon: <Youtube size={20} />,
+		href: "https://medium.com/@kiboko.dao.africa",
+		label: "YouTube",
+		handle: "Kiboko Dao Africa",		
+	}, 
+
 ];
 
 export default function Example() {
