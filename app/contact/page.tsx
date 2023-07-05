@@ -1,7 +1,7 @@
 "use client";
 import { Github, Mail, Twitter, Facebook,  Youtube } from "lucide-react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faMedium } from '@fortawesome/free-brands-svg-icons';
 
 import Link from "next/link";
 import { Navigation } from "../components/nav";
@@ -34,11 +34,16 @@ const socials = [
 	}, 
 	{
 		icon: <Youtube size={20} />,
-		href: "https://medium.com/@kiboko.dao.africa",
+		href: "https://www.youtube.com/channel/UCSNJ_cLEa8-VO4_HmvvwBjw",
 		label: "YouTube",
 		handle: "Kiboko Dao Africa",		
-	}, 
-
+	},
+	{
+		icon: <FontAwesomeIcon icon={faMedium} size="lg" />,
+		href: "https://medium.com/@kiboko.dao.africa",
+		label: "Medium",
+		handle: "Kiboko Dao Africa",		
+	},
 ];
 
 export default function Example() {
